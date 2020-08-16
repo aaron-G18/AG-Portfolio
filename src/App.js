@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { Wave } from 'react-animated-text';
 import BrandStatement from "./components/brandStatement/brandStatement";
 import MyName from "./components/myName/myName";
 
 
 
-class App extends React.Component {
+class App extends Component {
   constructor (props) {
     super(props);
     this.state = {
