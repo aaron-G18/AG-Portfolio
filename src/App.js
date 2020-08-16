@@ -1,18 +1,10 @@
-import React from 'react';
+import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { Wave } from 'react-animated-text';
 import BrandStatement from "./components/brandStatement/brandStatement";
+import MyName from "./components/myName/myName";
 
-const MyName = () => (
-  <Wave 
-  text="Aaron Garner"
-  effect="verticalFadeIn"
-  effectChange={1.0}
-  delay={3.0}
-  // iterations={1}
-  />
-);
 
 
 class App extends React.Component {
