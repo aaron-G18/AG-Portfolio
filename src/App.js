@@ -29,6 +29,11 @@ class App extends Component {
         <AiOutlineArrowRight className="inline-block" size="3em" />
         <AiOutlineCaretLeft className="inline-block" size="3em" />
         <AiOutlineCaretRight className="inline-block" size="3em" />
+        
+        <h1><MyName /></h1>
+        <hr />
+        <BrandStatement />
+        <div>
         <DiJsBadge className="inline-block App-logo" size="3em" />
         <DiJqueryLogo className="inline-block App-logo" size="3em" />
         <DiHtml5 className="inline-block App-logo" size="3em" />
@@ -36,13 +41,10 @@ class App extends Component {
         <DiReact className="inline-block App-logo" size="3em" />
         <DiMongodb className="inline-block App-logo" size="3em" />
         <DiMysql className="inline-block App-logo" size="3em" />
-        <h1><MyName /></h1>
-        <hr />
-        <BrandStatement />
-        <div>
-          <p>
-            links for pages will go here.
-          </p>
+        <p>
+          links for pages will go here.
+        </p>
+        <span>test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test </span>
         </div>
         <BottomLinks />
         
