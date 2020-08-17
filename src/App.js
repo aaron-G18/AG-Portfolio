@@ -6,6 +6,7 @@ import { AiOutlineArrowLeft, AiOutlineArrowRight } from 'react-icons/ai';
 import { AiOutlineCaretLeft, AiOutlineCaretRight } from 'react-icons/ai';
 import { DiJsBadge, DiHtml5, DiReact, DiCss3, DiMongodb, DiJqueryLogo, DiMysql} from 'react-icons/di';
 import BottomLinks from "./components/bottomLinks/bottomLinks";
+import FrontPage from "./components/frontPage/frontPage";
 
 
 class App extends Component {
@@ -25,14 +26,15 @@ class App extends Component {
     return(
     <div className="App">
       <header className="App-header">
-        <AiOutlineArrowLeft className="inline-block" size="3em" />
+        {/* <AiOutlineArrowLeft className="inline-block" size="3em" />
         <AiOutlineArrowRight className="inline-block" size="3em" />
         <AiOutlineCaretLeft className="inline-block" size="3em" />
         <AiOutlineCaretRight className="inline-block" size="3em" />
         
         <h1><MyName /></h1>
         <hr />
-        <BrandStatement />
+        <BrandStatement /> */}
+        <FrontPage />
         <div>
         <DiJsBadge className="inline-block App-logo" size="3em" />
         <DiJqueryLogo className="inline-block App-logo" size="3em" />
