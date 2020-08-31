@@ -7,6 +7,7 @@ import { AiOutlineCaretLeft, AiOutlineCaretRight } from 'react-icons/ai';
 import { DiJsBadge, DiHtml5, DiReact, DiCss3, DiMongodb, DiJqueryLogo, DiMysql, DiNodejsSmall } from 'react-icons/di';
 import BottomLinks from "./components/bottomLinks/bottomLinks";
 import FrontPage from "./components/frontPage/frontPage";
+import ReactTooltip from 'react-tooltip';
 
 
 class App extends Component {
@@ -21,7 +22,9 @@ class App extends Component {
    
   }
 
-  // start with name and animation, then transition to the main page. list two to three projects with bio on the side column.
+  // Start with name and animation, then transition to the main page. list two to three projects with bio on the side column.
+
+  // Icons should have tooltip to say what they are.
 
 
   render() {
@@ -38,21 +41,41 @@ class App extends Component {
         <BrandStatement /> */}
         <FrontPage />
         <div>
-          <div className="inline-block">
-            <DiJsBadge className="inline-block App-logo" size="3em" />
-            <p>JavaScript</p>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+
+          <div data-tip="JavaScript" className="inline-block">
+            <DiJsBadge data-tip="JavaScript" className="inline-block App-logo" size="3em" />
           </div>
+          
           <div className="inline-block">
             <DiJqueryLogo className="inline-block App-logo" size="3em" />
-            <p>JQuery</p>
           </div>
         <DiHtml5 className="inline-block App-logo" size="3em" />
         <DiCss3 className="inline-block App-logo" size="3em" />
         <DiReact className="inline-block App-logo" size="3em" />
         <DiMongodb className="inline-block App-logo" size="3em" />
         <DiMysql className="inline-block App-logo" size="3em" />
+        <div data-tip="NodeJS">
         <DiNodejsSmall className="inline-block App-logo" size="3em" />
-        
+        </div>
         {/* NODE.js */}
         <p>
           links for pages will go here.
@@ -60,7 +83,7 @@ class App extends Component {
         <span>test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test </span>
         </div>
         <BottomLinks />
-        
+        <ReactTooltip place="top" type="dark" effect="float"/>
       </header>
     </div>
     );
