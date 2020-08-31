@@ -4,7 +4,7 @@ import BrandStatement from "./components/brandStatement/brandStatement";
 import MyName from "./components/myName/myName";
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from 'react-icons/ai';
 import { AiOutlineCaretLeft, AiOutlineCaretRight } from 'react-icons/ai';
-import { DiJsBadge, DiHtml5, DiReact, DiCss3, DiMongodb, DiJqueryLogo, DiMysql} from 'react-icons/di';
+import { DiJsBadge, DiHtml5, DiReact, DiCss3, DiMongodb, DiJqueryLogo, DiMysql, DiNodejsSmall } from 'react-icons/di';
 import BottomLinks from "./components/bottomLinks/bottomLinks";
 import FrontPage from "./components/frontPage/frontPage";
 
@@ -45,6 +45,8 @@ class App extends Component {
         <DiReact className="inline-block App-logo" size="3em" />
         <DiMongodb className="inline-block App-logo" size="3em" />
         <DiMysql className="inline-block App-logo" size="3em" />
+        <DiNodejsSmall className="inline-block App-logo" size="3em" />
+        
         {/* NODE.js */}
         <p>
           links for pages will go here.
