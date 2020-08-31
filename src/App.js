@@ -38,8 +38,14 @@ class App extends Component {
         <BrandStatement /> */}
         <FrontPage />
         <div>
-        <DiJsBadge className="inline-block App-logo" size="3em" />
-        <DiJqueryLogo className="inline-block App-logo" size="3em" />
+          <div className="inline-block">
+            <DiJsBadge className="inline-block App-logo" size="3em" />
+            <p>JavaScript</p>
+          </div>
+          <div className="inline-block">
+            <DiJqueryLogo className="inline-block App-logo" size="3em" />
+            <p>JQuery</p>
+          </div>
         <DiHtml5 className="inline-block App-logo" size="3em" />
         <DiCss3 className="inline-block App-logo" size="3em" />
         <DiReact className="inline-block App-logo" size="3em" />
