@@ -7,6 +7,7 @@ import { AiOutlineCaretLeft, AiOutlineCaretRight } from 'react-icons/ai';
 import { DiJsBadge, DiHtml5, DiReact, DiCss3, DiMongodb, DiJqueryLogo, DiMysql, DiNodejsSmall } from 'react-icons/di';
 import BottomLinks from "./components/bottomLinks/bottomLinks";
 import FrontPage from "./components/frontPage/frontPage";
+import Project from "./components/projects/projects";
 import ReactTooltip from 'react-tooltip';
 
 
@@ -60,7 +61,7 @@ class App extends Component {
           <br />
           <br />
           <br />
-
+          <Project />
           <div data-tip="JavaScript" className="inline-block">
             <DiJsBadge data-tip="JavaScript" className="inline-block App-logo" size="3em" />
           </div>
@@ -80,7 +81,6 @@ class App extends Component {
         <p>
           links for pages will go here.
         </p>
-        <span>test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test </span>
         </div>
         <BottomLinks />
         <ReactTooltip place="top" type="dark" effect="float"/>
