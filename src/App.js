@@ -21,9 +21,12 @@ class App extends Component {
    
   }
 
-  // Start with name and animation, then transition to the main page. list two to three projects with bio on the side column.
+  // Animated name on the left "sidebar" of the page, the content on the right.
 
   // Icons should have tooltip to say what they are.
+
+  // add links for my github, linkedin, and a resume link/button
+  // add contact info (maybe an email widget to launch an email already addressed to me)
 
 
   render() {
