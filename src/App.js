@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import './App.css';
 import BrandStatement from "./components/brandStatement/brandStatement";
 import MyName from "./components/myName/myName";
-import { AiOutlineArrowLeft, AiOutlineArrowRight } from 'react-icons/ai';
-import { AiOutlineCaretLeft, AiOutlineCaretRight } from 'react-icons/ai';
 import { DiJsBadge, DiHtml5, DiReact, DiCss3, DiMongodb, DiJqueryLogo, DiMysql, DiNodejsSmall } from 'react-icons/di';
 import BottomLinks from "./components/bottomLinks/bottomLinks";
 import AnimatedName from "./components/animatedName/animatedName";
@@ -32,15 +30,8 @@ class App extends Component {
     return(
     <div className="App">
       <header className="App-header">
-        {/* <AiOutlineArrowLeft className="inline-block" size="3em" />
-        <AiOutlineArrowRight className="inline-block" size="3em" />
-        <AiOutlineCaretLeft className="inline-block" size="3em" />
-        <AiOutlineCaretRight className="inline-block" size="3em" />
-        
-        <h1><MyName /></h1>
-        <hr />
-        <BrandStatement /> */}
         <AnimatedName />
+        <BrandStatement />
         <div>
             <Project />
             <div data-tip="JavaScript" className="inline-block">
