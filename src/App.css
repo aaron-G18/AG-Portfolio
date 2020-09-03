@@ -11,7 +11,11 @@
   margin: auto;
 }
 
-
+.content {
+  float: right;
+  width: 60%;
+  padding-right: 10px;
+}
 
 .App-logo {
   pointer-events: none;

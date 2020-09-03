@@ -31,8 +31,8 @@ class App extends Component {
     <div className="App">
       <header className="App-header">
         <AnimatedName />
-        <BrandStatement />
-        <div>
+        <div className="content">
+          <BrandStatement />
             <Project />
             <div data-tip="JavaScript" className="inline-block">
               <DiJsBadge data-tip="JavaScript" className="inline-block App-logo" size="3em" />
@@ -52,8 +52,8 @@ class App extends Component {
           <p>
             links for pages will go here.
           </p>
+          <BottomLinks />
         </div>
-        <BottomLinks />
         <ReactTooltip place="top" type="dark" effect="float"/>
       </header>
     </div>

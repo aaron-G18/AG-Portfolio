@@ -17,10 +17,11 @@
   position: absolute;
   /* top: 50%; */
   /* transform: translate(-50%, -50%); */
-  width: 300px;
+  width: 22%;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: lightgray;
 }
 .animated-title > div {
   height: 50%;
@@ -30,7 +31,8 @@
   
 }
 .animated-title > div div {
-  font-size: 6vmin;
+  /* font-size: 5vmin; */
+  font-size: 3vw;
   padding: 2vmin 0;
   position: absolute;
 }
