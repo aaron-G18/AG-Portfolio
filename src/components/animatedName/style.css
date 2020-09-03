@@ -9,14 +9,15 @@
   100% { transform: translate3d(0, 0, 0); }
 }
 .animated-title {
+  float: left;
   color: #222;
   font-family: Roboto, Arial, sans-serif;
-  height: 90vmin;
+  height: 100%;
   /* left: 50%; */
-  /* position: absolute; */
+  position: absolute;
   /* top: 50%; */
   /* transform: translate(-50%, -50%); */
-  /* width: 90vmin; */
+  width: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -29,7 +30,7 @@
   
 }
 .animated-title > div div {
-  font-size: 12vmin;
+  font-size: 6vmin;
   padding: 2vmin 0;
   position: absolute;
 }
@@ -37,7 +38,7 @@
   display: block;
 }
 .animated-title > div.text-top {
-  border-bottom: 1vmin solid #000;
+  border-bottom: 5px solid #000;
   top: 0;
 }
 .animated-title > div.text-top div {
