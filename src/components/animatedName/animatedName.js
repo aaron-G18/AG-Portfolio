@@ -13,7 +13,6 @@ export default function frontPage(props) {
                 <div className="top-box">
                 <span>Aaron Garner</span>
                     <img className="aaron-suit" src="./images/Aaron_Suit_Cropped.jpg" alt="aaron in suit" />
-                    
                 </div>
             </div>
             <div class="text-bottom">

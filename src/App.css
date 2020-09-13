@@ -24,13 +24,14 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .logo {
-    animation: 3s linear 1s infinite alternate slidein;
+    animation: 1s linear infinite alternate slidein;
+
   }
 }
 
 @keyframes slidein {
   from {
-    transform: scaleX(0);
+    transform: scaleX(.6);
   }
 
   to {

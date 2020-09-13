@@ -35,7 +35,6 @@ class App extends Component {
         <AnimatedName />
         <div className="content">
           <BrandStatement />
-          <Projects />
           <div data-tip="JavaScript" className="inline-block">
             <DiJsBadge data-tip="JavaScript" className="logo" />
           </div>
@@ -60,6 +59,7 @@ class App extends Component {
           <div data-tip="NodeJS" className="inline-block">
             <DiNodejsSmall className="logo" />
           </div>
+          <Projects />
           <p>
             links for pages will go here.
           </p>
