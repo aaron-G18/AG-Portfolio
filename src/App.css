@@ -3,7 +3,10 @@
 }
 
 .inline-block {
-  display: inline;
+  display: inline-block;
+  height: 3em;
+  width: 3em;
+  margin: 10px;
 }
 
 .brand-statement-wrapper {
@@ -17,43 +20,17 @@
   padding-right: 30px;
 }
 
-.App-logo {
+.logo {
   pointer-events: none;
-  margin: 10px;
+  height: 100%;
+  width: 100%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+  .logo {
     animation: 3s linear 1s infinite alternate slidein;
   }
 }
-
-/* .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-} */
-
-/* .App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(-30deg);
-  }
-
-  to {
-    transform: rotate(30deg);
-  }
-} */
-
-
-
 
 @keyframes slidein {
   from {

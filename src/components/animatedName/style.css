@@ -1,13 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
 @keyframes showTopText {
-  0% { transform: translate3d(0, 100%, 0); }
+  0% {
+    transform: translate3d(0, 100%, 0);
+  }
+
   /* 40%, 60% { transform: translate3d(0, 50%, 0); } */
-  100% { transform: translate3d(0, 0, 0); }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
 }
+
 @keyframes showBottomText {
-  0% { transform: translate3d(0, -100%, 0); }
-  100% { transform: translate3d(0, 0, 0); }
+  0% {
+    transform: translate3d(0, -100%, 0);
+  }
+
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
 }
+
 .animated-title {
   float: left;
   color: #222;
@@ -23,40 +36,48 @@
   justify-content: center;
   background-color: lightgray;
 }
-.animated-title > div {
+
+.animated-title>div {
   height: 50%;
   overflow: hidden;
   position: absolute;
   width: 100%;
-  
+
 }
-.animated-title > div div {
+
+.animated-title>div div {
   /* font-size: 5vmin; */
   font-size: 3vw;
   padding: 2vmin 0;
   position: absolute;
 }
-.animated-title > div div span {
+
+.animated-title>div div span {
   display: block;
 }
-.animated-title > div.text-top {
+
+.animated-title>div.text-top {
   border-bottom: 5px solid #000;
   top: 0;
 }
-.animated-title > div.text-top div {
+
+.animated-title>div.text-top div {
   animation: showTopText 1s;
   animation-delay: 0.5s;
   animation-fill-mode: forwards;
   bottom: 0;
   transform: translate(0, 100%);
 }
-.animated-title > div.text-top div span:first-child {
+
+.animated-title>div.text-top div span:first-child {
   color: #767676;
 }
-.animated-title > div.text-bottom {
+
+.animated-title>div.text-bottom {
   bottom: 0;
 }
-.animated-title > div.text-bottom div {
+
+.animated-title>div.text-bottom div {
   animation: showBottomText 0.5s;
   animation-delay: 1.75s;
   animation-fill-mode: forwards;
@@ -68,11 +89,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 20px;
 }
 
 .text-bottom {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.aaron-suit {
+  width: 100%;
+  height: 100%;
+}
