@@ -1,10 +1,9 @@
 .bottom-links {
     margin-bottom: 20px;
-    /* display: inline-block; */
     width: 100%;
 }
 
 .link {
     display: inline-block;
-
+    margin: 10px;
 }

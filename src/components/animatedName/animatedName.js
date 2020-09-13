@@ -1,7 +1,6 @@
 import React from "react";
 import "./style.css";
-import BottomLinks from "../bottomLinks/bottomLinks";
-import Email from "../email/email";
+import BottomLinks from "../links/links";
 
 export default function frontPage(props) {
   // functions
@@ -19,7 +18,6 @@ export default function frontPage(props) {
             <div>
                 {/* for the win! */}
                 <BottomLinks />
-                <Email />
             </div>
         </div>
     </div>

@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 import './App.css';
 import BrandStatement from "./components/brandStatement/brandStatement";
 import { DiJsBadge, DiHtml5, DiReact, DiCss3, DiMongodb, DiJqueryLogo, DiMysql, DiNodejsSmall } from 'react-icons/di';
-import BottomLinks from "./components/bottomLinks/bottomLinks";
+import BottomLinks from "./components/links/links";
 import AnimatedName from "./components/animatedName/animatedName";
 import Projects from "./components/projects/projects";
 import ReactTooltip from 'react-tooltip';
-import Email from "./components/email/email";
+
 
 
 class App extends Component {
@@ -64,7 +64,6 @@ class App extends Component {
             links for pages will go here.
           </p>
           <BottomLinks />
-          <Email />
         </div>
         <ReactTooltip place="top" type="dark" effect="float"/>
     </div>
