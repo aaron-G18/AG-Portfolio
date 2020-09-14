@@ -64,9 +64,6 @@ class App extends Component {
           <hr/>
           <Projects />
           <hr/>
-          <p>
-            links for pages will go here.
-          </p>
           <BottomLinks />
         </div>
         <ReactTooltip place="top" type="dark" effect="float"/>
