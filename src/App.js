@@ -13,7 +13,7 @@ class App extends Component {
   constructor (props) {
     super(props);
     this.state = {
-      isVisible: true,
+      
     };
   };
 
@@ -35,6 +35,8 @@ class App extends Component {
         <AnimatedName />
         <div className="content">
           <BrandStatement />
+          <br/>
+          <hr/>
           <div data-tip="JavaScript" className="inline-block">
             <DiJsBadge data-tip="JavaScript" className="logo" />
           </div>
@@ -59,7 +61,9 @@ class App extends Component {
           <div data-tip="NodeJS" className="inline-block">
             <DiNodejsSmall className="logo" />
           </div>
+          <hr/>
           <Projects />
+          <hr/>
           <p>
             links for pages will go here.
           </p>
