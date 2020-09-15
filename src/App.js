@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import BrandStatement from "./components/brandStatement/brandStatement";
 import { DiJsBadge, DiHtml5, DiReact, DiCss3, DiMongodb, DiJqueryLogo, DiMysql, DiNodejsSmall } from 'react-icons/di';
-import BottomLinks from "./components/links/links";
-import AnimatedName from "./components/animatedName/animatedName";
+import BottomLinks from "./components/bottomLinks/bottomLinks";
+import AnimatedName from "./components/sideBar/sideBar";
 import Projects from "./components/projects/projects";
 import ReactTooltip from 'react-tooltip';
 
