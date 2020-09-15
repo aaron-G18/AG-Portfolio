@@ -7,6 +7,10 @@ import ReactTooltip from 'react-tooltip';
 export default function bottomLinks(props) {
   // functions
 
+  //
+  // Need to correctly align side bar links and labels.
+  //
+
   return (
     <div className="side-links">
       <div data-tip="My LinkedIn" className="link">
