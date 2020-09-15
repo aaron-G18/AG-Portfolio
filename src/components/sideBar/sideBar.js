@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import BottomLinks from "../links/links";
+import SideLinks from "../sideLinks/sideLinks";
 
 export default function frontPage(props) {
   // functions
@@ -17,7 +17,7 @@ export default function frontPage(props) {
             </div>
             <div class="text-bottom">
                 <div className="bottom-content">
-                    <BottomLinks />
+                    <SideLinks />
                 </div>
             </div>
         </div>

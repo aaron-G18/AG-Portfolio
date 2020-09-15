@@ -1,0 +1,17 @@
+p {
+    float: left;
+    font-size: 1.5vw;
+    justify-content: center;
+}
+
+.link {
+    display: block;
+    /* margin: 10px; */
+    clear: both;
+    justify-content: center;
+}
+
+.logos {
+    float: left;
+    margin-left: 20px;
+}
