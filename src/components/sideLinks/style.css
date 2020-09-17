@@ -1,16 +1,27 @@
-p {
-    float: left;
-    font-size: 1.5vw;
-    justify-content: center;
-}
-
 .link {
     display: block;
     clear: both;
     justify-content: center;
+    height: 40px;
 }
 
 .logos {
     float: left;
+    height: 30px;
+    margin: auto;
+}
+
+.link-tag {
+    float: left;
+    font-size: 1.5vw;
+    justify-content: center;
     margin-left: 20px;
+    height: 30px;
+    margin: auto;
+}
+
+.a-tag {
+    display: block;
+    height: 40px;
+    margin: auto;
 }
