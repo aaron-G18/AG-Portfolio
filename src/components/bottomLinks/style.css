@@ -3,7 +3,8 @@
     width: 100%;
 }
 
-.link {
+.bottom-link {
     display: inline-block;
     margin: 10px;
+    width: 35px;
 }
