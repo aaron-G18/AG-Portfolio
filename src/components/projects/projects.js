@@ -11,7 +11,10 @@ export default function bottomLinks(props) {
         <div className="project1">
           <div className="proj1-text">
             <h3>Resource Center</h3>
-            <p>The description of the project will go here. Not too much text but enough to explain the project and some of the tools/technologies used and my contributions to them. DESCRIPTION OF RESOURCE CENTER</p>
+            <p>Co-created with a group of three other developers, Resource Center is a MERN stack app that allows companies to store useful links, information, and notes with quick and easy access. With a mobile responsive design, the resouce center works great on a computer or mobile device.</p>
+              
+            <p>Thechnologies Used: MongoDB, Express, React, Node, Mongoose, React-Router-Dom, Bcrypt, Axios, JQuery, React-Bootstrap, CSS3, HTML5/JSX.</p>
+            <p>My contributions to this project largely include visual styling of the app (main page layout, icons, navbar, buttons etc.), API requests via Axios and parsing of data returned, mobile responsiveness, and assisted with user login/authentication.</p>
           </div>
           <img className="proj1-img" src="https://dummyimage.com/300x200/000000/0011ff&text=Place+Holder" alt="screen shot of <project name>"></img>
         </div>
