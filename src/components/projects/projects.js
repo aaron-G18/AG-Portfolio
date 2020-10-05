@@ -6,6 +6,8 @@ import "./style.css";
 export default function bottomLinks(props) {
   
 
+  // Do I want to put the news scraping project on instead of community first? Or should I polish up Trek and put that on there?
+
   return (
     <div className="projects">
         <div className="project1">
