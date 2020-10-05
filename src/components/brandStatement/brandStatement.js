@@ -2,6 +2,8 @@ import React from "react";
 import "./style.css";
 export default function brandStatement(props) {
 
+// Might want to put duration of experience. How long I did programming and building GUIs.
+
   return (
     <div className="brand-statement">
       <h2>About me</h2>
