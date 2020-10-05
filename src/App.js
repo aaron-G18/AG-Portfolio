@@ -21,13 +21,6 @@ class App extends Component {
    
   }
 
-  // Animated name on the left "sidebar" of the page, the content on the right.
-
-  // Icons should have tooltip to say what they are.
-
-  // add links for my github, linkedin, and a resume link/button
-  // add contact info (maybe an email widget to launch an email already addressed to me)
-
 
   render() {
     return(
