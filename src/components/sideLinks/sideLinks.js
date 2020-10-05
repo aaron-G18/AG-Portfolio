@@ -10,16 +10,16 @@ export default function bottomLinks(props) {
 
   return (
     <div className="side-links">
-      <div data-tip="My LinkedIn" className="link">
-        <a className="a-tag" href="https://www.linkedin.com/in/aaron-garner-53066346/" target="_blank" rel="noopener noreferrer">
-          <AiFillLinkedin className="linkedin logos" size="3vw" color="blue" />
-          <p className="link-tag">LinkedIn</p>
-        </a>
-      </div>
       <div data-tip="My Github" className="link">
         <a className="a-tag" href="https://github.com/aaron-G18" target="_blank" rel="noopener noreferrer">
           <AiFillGithub className="github logos" size="3vw" color="blue" />
           <p className="link-tag">GitHub</p>
+        </a>
+      </div>
+      <div data-tip="My LinkedIn" className="link">
+        <a className="a-tag" href="https://www.linkedin.com/in/aaron-garner-53066346/" target="_blank" rel="noopener noreferrer">
+          <AiFillLinkedin className="linkedin logos" size="3vw" color="blue" />
+          <p className="link-tag">LinkedIn</p>
         </a>
       </div>
       <div data-tip="My Resume" className="link">
