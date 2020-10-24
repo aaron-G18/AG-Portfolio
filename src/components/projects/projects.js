@@ -29,7 +29,9 @@ export default function bottomLinks(props) {
             <h3>Community First</h3>
             <p>The description of the project will go here. Not too much text but enough to explain the project and some of the tools/technologies used and my contributions to them. DESCRIPTION OF COMMUNITY FIRST</p>
           </div>
-          <img className="proj2-img" src="./images/community_pic.png" alt="screen shot of Comunnity First web app"></img>
+          <a href="https://communityfirst.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+            <img className="proj2-img" src="./images/community_pic.png" alt="screen shot of Comunnity First web app"></img>
+          </a>
         </div>
         <br />
         <hr className="hr-short" />
