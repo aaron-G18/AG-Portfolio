@@ -40,7 +40,9 @@ export default function bottomLinks(props) {
             <h3>Google Book Search</h3>
             <p>The description of the project will go here. Not too much text but enough to explain the project and some of the tools/technologies used and my contributions to them. GOOGLE BOOK SEARCH</p>
           </div>
-          <img className="proj3-img" src="./images/book-search_pic.png" alt="screen shot of <project name>"></img>
+          <a href="https://ag-google-books-search.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+            <img className="proj3-img" src="./images/book-search_pic.png" alt="screen shot of <project name>"></img>
+          </a>
         </div>
     </div>
   );
