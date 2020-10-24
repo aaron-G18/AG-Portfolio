@@ -18,7 +18,7 @@ export default function bottomLinks(props) {
             <p>Thechnologies Used: MongoDB, Express, React, Node, Mongoose, React-Router-Dom, Bcrypt, Axios, JQuery, React-Bootstrap, CSS3, HTML5/JSX.</p>
             <p>My contributions to this project largely include visual styling of the app (main page layout, icons, navbar, buttons etc.), API requests via Axios and parsing of data returned, mobile responsiveness, and assisted with user login/authentication.</p>
           </div>
-          <img className="proj1-img" src="./images/resource_pic.png" alt="screen shot of <project name>"></img>
+          <img className="proj1-img" src="./images/resource_pic.png" alt="screen shot of Resource Center web app"></img>
         </div>
         <br />
         <hr className="hr-short" />
@@ -27,7 +27,7 @@ export default function bottomLinks(props) {
             <h3>Community First</h3>
             <p>The description of the project will go here. Not too much text but enough to explain the project and some of the tools/technologies used and my contributions to them. DESCRIPTION OF COMMUNITY FIRST</p>
           </div>
-          <img className="proj2-img" src="https://dummyimage.com/300x200/000000/0011ff&text=Place+Holder" alt="screen shot of <project name>"></img>
+          <img className="proj2-img" src="./images/community_pic.png" alt="screen shot of Comunnity First web app"></img>
         </div>
         <br />
         <hr className="hr-short" />
@@ -36,7 +36,7 @@ export default function bottomLinks(props) {
             <h3>Google Book Search</h3>
             <p>The description of the project will go here. Not too much text but enough to explain the project and some of the tools/technologies used and my contributions to them. GOOGLE BOOK SEARCH</p>
           </div>
-          <img className="proj3-img" src="https://dummyimage.com/300x200/000000/0011ff&text=Place+Holder" alt="screen shot of <project name>"></img>
+          <img className="proj3-img" src="./images/book-search_pic.png" alt="screen shot of <project name>"></img>
         </div>
     </div>
   );
