@@ -18,7 +18,7 @@ export default function bottomLinks(props) {
             <p>Thechnologies Used: MongoDB, Express, React, Node, Mongoose, React-Router-Dom, Bcrypt, Axios, JQuery, React-Bootstrap, CSS3, HTML5/JSX.</p>
             <p>My contributions to this project largely include visual styling of the app (main page layout, icons, navbar, buttons etc.), API requests via Axios and parsing of data returned, mobile responsiveness, and assisted with user login/authentication.</p>
           </div>
-          <img className="proj1-img" src="https://dummyimage.com/300x200/000000/0011ff&text=Place+Holder" alt="screen shot of <project name>"></img>
+          <img className="proj1-img" src="./images/resource_pic.png" alt="screen shot of <project name>"></img>
         </div>
         <br />
         <hr className="hr-short" />
