@@ -14,9 +14,8 @@ export default function bottomLinks(props) {
           <div className="proj1-text">
             <h3>Resource Center</h3>
             <p>Co-created with a group of three other developers, Resource Center is a MERN stack app that allows companies to store useful links, information, and notes with quick and easy access. With a mobile responsive design, the resouce center works great on a computer or mobile device.</p>
-              
             <p>Thechnologies Used: MongoDB, Express, React, Node, Mongoose, React-Router-Dom, Bcrypt, Axios, JQuery, React-Bootstrap, CSS3, HTML5/JSX.</p>
-            <p>My contributions to this project include visual styling of the app (main page layout, icons, navbar, buttons etc.), API requests via Axios and parsing of data returned, mobile responsiveness, and assisted with user login/authentication.</p>
+            <p>My contributions to this project largely include visual styling of the app (main page layout, icons, navbar, buttons etc.), API requests via Axios and parsing of data returned, mobile responsiveness, and assisted with user login/authentication.</p>
             <p>
               <a href="https://serene-kobuk-valley-06720.herokuapp.com/" target="_blank" rel="noopener noreferrer">Deployed Sight</a>
             </p>
@@ -31,8 +30,8 @@ export default function bottomLinks(props) {
         <div className="project2">
           <div className="proj2-text">
             <h3>Community First</h3>
-            <p>Co-created with three other developers, Community First website is a way to discover how to give back, by providing an online forum to post community service events. The home page displays all community events. Clicking on one event will display information about that event. From the home page, a user can log in and create an event. A SQL database is generated to store user and event information, as well as a comments section for a future version. Login credentials are implemented with node packages bcrypt and cookie-parser.</p>
-            <p>My contributions to this project include</p>
+            <p>Co-created with three other developers, our Community First website provides an online forum to post community service events. The home page displays all community events. Clicking on one event will display information about that event. From the home page, a user can log in and create an event. A SQL database stores user and event information.</p>
+            <p>My contributions to this project were mostly handling the front end javasctipt logic for CRUD calls via AJAX and Handlebars structure.</p>
             <p>Technologies used: Node, Express, Express Handlebars, Javascript, JQuery, HTML5, CSS3, Bcrypt, Cookie-parser, Sequelize, Mysql2, ESLint, Travis CI, Dotenv, Mocha, and Chai.</p>
             <p>
               <a href="https://communityfirst.herokuapp.com/" target="_blank" rel="noopener noreferrer">Deployed Sight</a>
