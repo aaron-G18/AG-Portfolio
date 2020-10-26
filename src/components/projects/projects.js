@@ -31,7 +31,8 @@ export default function bottomLinks(props) {
         <div className="project2">
           <div className="proj2-text">
             <h3>Community First</h3>
-            <p>The description of the project will go here. Not too much text but enough to explain the project and some of the tools/technologies used and my contributions to them. DESCRIPTION OF COMMUNITY FIRST</p>
+            <p>Co-created with three other developers, Community First website is a way to discover how to give back, by providing an online forum to post community service events. The home page displays all community events. Clicking on one event will display information about that event. From the home page, a user can log in and create an event. A SQL database is generated to store user and event information, as well as a comments section for a future version. Login credentials are implemented with node packages bcrypt and cookie-parser.</p>
+            <p>Technologies used:</p>
           </div>
           <a href="https://communityfirst.herokuapp.com/" target="_blank" rel="noopener noreferrer">
             <img className="proj2-img" src="./images/community_pic.png" alt="screen shot of Comunnity First web app"></img>
