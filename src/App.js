@@ -56,7 +56,7 @@ class App extends Component {
           </div>
           <hr/>
           <Projects />
-          <hr/>
+          <hr className="hr-wide" />
           <BottomLinks />
         </div>
         <ReactTooltip place="top" type="dark" effect="float"/>
