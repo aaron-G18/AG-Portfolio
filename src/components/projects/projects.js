@@ -50,7 +50,7 @@ export default function bottomLinks(props) {
         <div className="project3">
           <div className="proj3-text">
             <h3>Google Book Search</h3>
-            <p>The description of the project will go here. Not too much text but enough to explain the project and some of the tools/technologies used and my contributions to them. GOOGLE BOOK SEARCH</p>
+            <p>This app is a "search engine" that interacts with Google's Google Books API to search for and return books for the title or key word(s) entered in the search field. Users will get a list of books for their search. They will then be able to click "View" to go to that book on Google Books, or click "Save" to save that book to a database. Navigating to the "Saved" page will display a list of all saved books in the database. On the saved page, the user will have the option again to click "View" to go to that book on Google Books, or click "Delete" to remove that book from the database.</p>
           </div>
           <a href="https://ag-google-books-search.herokuapp.com/" target="_blank" rel="noopener noreferrer">
             <img className="proj3-img" src="./images/book-search_pic.png" alt="screen shot of <project name>"></img>
