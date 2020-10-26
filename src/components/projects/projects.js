@@ -26,7 +26,8 @@ export default function bottomLinks(props) {
           </a>
         </div>
         <br />
-        <hr className="hr-short" />
+        <br />
+        <hr className="hr-wide" />
         <div className="project2">
           <div className="proj2-text">
             <h3>Community First</h3>
@@ -42,7 +43,10 @@ export default function bottomLinks(props) {
           </a>
         </div>
         <br />
-        <hr className="hr-short" />
+        <br />
+        <br />
+        <br />
+        <hr className="hr-wide" />
         <div className="project3">
           <div className="proj3-text">
             <h3>Google Book Search</h3>
