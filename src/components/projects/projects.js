@@ -33,7 +33,7 @@ export default function bottomLinks(props) {
             <h3>Community First</h3>
             <p>Co-created with three other developers, Community First website is a way to discover how to give back, by providing an online forum to post community service events. The home page displays all community events. Clicking on one event will display information about that event. From the home page, a user can log in and create an event. A SQL database is generated to store user and event information, as well as a comments section for a future version. Login credentials are implemented with node packages bcrypt and cookie-parser.</p>
             <p>My contributions to this project include</p>
-            <p>Technologies used:</p>
+            <p>Technologies used: Node, Express, Express Handlebars, Javascript, JQuery, HTML5, CSS3, Bcrypt, Cookie-parser, Sequelize, Mysql2, ESLint, Travis CI, Dotenv, Mocha, and Chai.</p>
             <p>
               <a href="https://communityfirst.herokuapp.com/" target="_blank" rel="noopener noreferrer">Deployed Sight</a>
             </p>
