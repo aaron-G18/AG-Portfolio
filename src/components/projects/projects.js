@@ -27,6 +27,8 @@ export default function bottomLinks(props) {
         </div>
         <br />
         <br />
+        <br />
+        <br />
         <hr className="hr-wide" />
         <div className="project2">
           <div className="proj2-text">
@@ -41,7 +43,10 @@ export default function bottomLinks(props) {
           <a href="https://communityfirst.herokuapp.com/" target="_blank" rel="noopener noreferrer">
             <img className="proj2-img" src="./images/community_pic.png" alt="screen shot of Comunnity First web app"></img>
           </a>
+          <br />
         </div>
+        <br />
+        <br />
         <br />
         <br />
         <hr className="hr-wide" />
@@ -53,7 +58,6 @@ export default function bottomLinks(props) {
             <p>
               <a href="https://ag-google-books-search.herokuapp.com/" target="_blank" rel="noopener noreferrer">Deployed Sight</a>
             </p>
-            <br />
             <br />
           </div>
           <a href="https://ag-google-books-search.herokuapp.com/" target="_blank" rel="noopener noreferrer">
