@@ -52,6 +52,11 @@ export default function bottomLinks(props) {
             <h3>Google Book Search</h3>
             <p>I created this app on my own. It is a "search engine" that interacts with the Google Books API to search for and return books for the title or key word(s) entered in the search field. Users will get a list of books for their search. They will then be able to click "View" to go to that book on Google Books, or click "Save" to save that book to a database (MongoDB). Navigating to the "Saved" page will display a list of all saved books in the database. On the saved page, the user will have the option again to click "View" to go to that book on Google Books, or click "Delete" to remove that book from the database.</p>
             <p>Technologies used: MERN (MongoDB, Express, React, Node), JSX, HTML5, CSS3, Javascript, Mongoose, Axios</p>
+            <p>
+              <a href="https://ag-google-books-search.herokuapp.com/" target="_blank" rel="noopener noreferrer">Deployed Sight</a>
+            </p>
+            <br />
+            <br />
           </div>
           <a href="https://ag-google-books-search.herokuapp.com/" target="_blank" rel="noopener noreferrer">
             <img className="proj3-img" src="./images/book-search_pic.png" alt="screen shot of <project name>"></img>
