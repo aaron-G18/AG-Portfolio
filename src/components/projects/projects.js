@@ -44,8 +44,6 @@ export default function bottomLinks(props) {
         </div>
         <br />
         <br />
-        <br />
-        <br />
         <hr className="hr-wide" />
         <div className="project3">
           <div className="proj3-text">
