@@ -10,6 +10,8 @@ export default function bottomLinks(props) {
 
   return (
     <div className="projects">
+        <br />
+        <h2>Projects</h2>
         <div className="project1">
           <div className="proj1-text">
             <h3>Resource Center</h3>
