@@ -3,7 +3,6 @@ import "./style.css";
 import SideLinks from "../sideLinks/sideLinks";
 
 export default function frontPage(props) {
-  // functions
 
 
   return (

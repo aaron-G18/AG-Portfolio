@@ -5,10 +5,6 @@ import ReactTooltip from 'react-tooltip';
 
 
 export default function bottomLinks(props) {
-  // functions
-
-// Need to adjust the width of the side link divs so that the mouse over is only where the text/icons are, not the whole width of the side bar.
-
 
   return (
     <div className="side-links">

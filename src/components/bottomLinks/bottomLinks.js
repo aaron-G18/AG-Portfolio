@@ -5,7 +5,6 @@ import ReactTooltip from 'react-tooltip';
 
 
 export default function bottomLinks(props) {
-  // functions
 
   return (
     <div className="bottom-links">
