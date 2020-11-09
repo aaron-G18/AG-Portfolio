@@ -16,11 +16,11 @@ export default function bottomLinks(props) {
             <p>Thechnologies Used: MongoDB, Express, React, Node, Mongoose, React-Router-Dom, Bcrypt, Axios, JQuery, React-Bootstrap, CSS3, HTML5/JSX.</p>
             <p>My contributions to this project largely include visual styling of the app (main page layout, icons, navbar, buttons etc.), API requests via Axios and parsing of data returned, mobile responsiveness, and assisted with user login/authentication.</p>
             <p>
-              <a href="https://serene-kobuk-valley-06720.herokuapp.com/" target="_blank" rel="noopener noreferrer">Deployed Sight</a>
+              <a href="https://nameless-peak-44869.herokuapp.com/" target="_blank" rel="noopener noreferrer">Deployed Sight</a>
             </p>
             <br />
           </div>
-          <a href="https://serene-kobuk-valley-06720.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+          <a href="https://nameless-peak-44869.herokuapp.com/" target="_blank" rel="noopener noreferrer">
             <img className="proj1-img" src="./images/resource_pic.png" alt="screen shot of Resource Center web app"></img>
           </a>
         </div>
