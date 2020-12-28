@@ -34,13 +34,27 @@
 @media only screen and (max-width: 600px) {
   .proj-img {
       float: none;
+      width: 70%;
   }
 
   .proj-text {
       float: none;
+      width: 100%;
   }
 
   .project1 {
       height: auto;
   }
+
+  .project2 {
+      height: auto;
+  }
+
+  .project3 {
+      height: auto;
+  }
+
+  
+
+
 }
