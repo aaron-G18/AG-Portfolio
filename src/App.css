@@ -41,3 +41,11 @@ hr {
     transform: scaleX(1);
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .content {
+    float: none;
+    width: 100%;
+    padding: 20px;
+  }
+}

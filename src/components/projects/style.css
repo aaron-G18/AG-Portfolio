@@ -8,12 +8,12 @@
     height: 250px;
 }
 
-.proj1-text {
+.proj-text {
     float: left;
     width: 65%;
 }
 
-.proj1-img {
+.proj-img {
     float: right;
     width: 30%;
 }
@@ -23,27 +23,24 @@
     height: 250px;
 }
 
-.proj2-text {
-    float: left;
-    width: 65%;
-}
-
-.proj2-img {
-    float: right;
-    width: 30%;
-}
-
 .project3 {
     margin-top: 80px;
     height: 250px;
 }
 
-.proj3-text {
-    float: left;
-    width: 65%;
-}
 
-.proj3-img {
-    float: right;
-    width: 30%;
+
+
+@media only screen and (max-width: 600px) {
+  .proj-img {
+      float: none;
+  }
+
+  .proj-text {
+      float: none;
+  }
+
+  .project1 {
+      height: auto;
+  }
 }

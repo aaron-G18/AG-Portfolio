@@ -10,7 +10,7 @@ export default function bottomLinks(props) {
         <br />
         <h2>Projects</h2>
         <div className="project1">
-          <div className="proj1-text">
+          <div className="proj-text">
             <h3>Resource Center</h3>
             <p>Co-created with a group of three other developers, Resource Center is a MERN stack app that allows companies to store useful links, information, and notes with quick and easy access. With a mobile responsive design, the resouce center works great on a computer or mobile device.</p>
             <p>Thechnologies Used: MongoDB, Express, React, Node, Mongoose, React-Router-Dom, Bcrypt, Axios, JQuery, React-Bootstrap, CSS3, HTML5/JSX.</p>
@@ -21,7 +21,7 @@ export default function bottomLinks(props) {
             <br />
           </div>
           <a href="https://nameless-peak-44869.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-            <img className="proj1-img" src="./images/resource_pic.png" alt="screen shot of Resource Center web app"></img>
+            <img className="proj-img" src="./images/resource_pic.png" alt="screen shot of Resource Center web app"></img>
           </a>
         </div>
         <br />
@@ -30,7 +30,7 @@ export default function bottomLinks(props) {
         <br />
         <hr className="hr-wide" />
         <div className="project2">
-          <div className="proj2-text">
+          <div className="proj-text">
             <h3>Community First</h3>
             <p>Co-created with three other developers, our Community First website provides an online forum to post community service events. The home page displays all community events. Clicking on one event will display information about that event. From the home page, a user can log in and create an event. A SQL database stores user and event information.</p>
             <p>My contributions to this project were mostly handling the front end javasctipt logic for CRUD calls via AJAX and Handlebars structure.</p>
@@ -40,7 +40,7 @@ export default function bottomLinks(props) {
             </p>
           </div>
           <a href="https://communityfirst.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-            <img className="proj2-img" src="./images/community_pic.png" alt="screen shot of Comunnity First web app"></img>
+            <img className="proj-img" src="./images/community_pic.png" alt="screen shot of Comunnity First web app"></img>
           </a>
           <br />
         </div>
@@ -50,7 +50,7 @@ export default function bottomLinks(props) {
         <br />
         <hr className="hr-wide" />
         <div className="project3">
-          <div className="proj3-text">
+          <div className="proj-text">
             <h3>Google Book Search</h3>
             <p>I created this app on my own. It is a "search engine" that interacts with the Google Books API to search for and return books for the title or key word(s) entered in the search field. Users will get a list of books for their search. They will then be able to click "View" to go to that book on Google Books, or click "Save" to save that book to a database (MongoDB). Navigating to the "Saved" page will display a list of all saved books in the database. On the saved page, the user will have the option again to click "View" to go to that book on Google Books, or click "Delete" to remove that book from the database.</p>
             <p>Technologies used: MERN (MongoDB, Express, React, Node), JSX, HTML5, CSS3, Javascript, Mongoose, Axios</p>
@@ -60,7 +60,7 @@ export default function bottomLinks(props) {
             <br />
           </div>
           <a href="https://ag-google-books-search.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-            <img className="proj3-img" src="./images/book-search_pic.png" alt="screen shot of <project name>"></img>
+            <img className="proj-img" src="./images/book-search_pic.png" alt="screen shot of <project name>"></img>
           </a>
         </div>
     </div>
