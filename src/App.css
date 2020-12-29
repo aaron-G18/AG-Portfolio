@@ -45,7 +45,7 @@ hr {
 @media only screen and (max-width: 600px) {
   .content {
     float: none;
-    width: 100%;
+    width: auto;
     padding: 20px;
   }
 }

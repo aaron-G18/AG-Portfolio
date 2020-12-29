@@ -39,7 +39,7 @@
 
   .proj-text {
       float: none;
-      width: 100%;
+      width: auto;
   }
 
   .project1 {
