@@ -2,9 +2,7 @@ import React from "react";
 import "./style.css";
 import SideLinks from "../sideLinks/sideLinks";
 
-export default function frontPage(props) {
-
-
+export default function sidebar(props) {
   return (
     <div className="sidebar">
         <div className="animated-title">

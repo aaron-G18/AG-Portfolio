@@ -5,6 +5,7 @@ import { DiJsBadge, DiHtml5, DiReact, DiCss3, DiMongodb, DiJqueryLogo, DiMysql, 
 import BottomLinks from "./components/bottomLinks/bottomLinks";
 import Sidebar from "./components/sideBar/sideBar";
 import Projects from "./components/projects/projects";
+import Navbar from "./components/navbar/navbar";
 import ReactTooltip from 'react-tooltip';
 
 
@@ -25,6 +26,7 @@ class App extends Component {
   render() {
     return(
     <div className="App">
+        <Navbar />
         <Sidebar />
         <div className="content">
           <BrandStatement />
