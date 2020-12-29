@@ -3,7 +3,7 @@ import './App.css';
 import BrandStatement from "./components/brandStatement/brandStatement";
 import { DiJsBadge, DiHtml5, DiReact, DiCss3, DiMongodb, DiJqueryLogo, DiMysql, DiNodejsSmall } from 'react-icons/di';
 import BottomLinks from "./components/bottomLinks/bottomLinks";
-import AnimatedName from "./components/sideBar/sideBar";
+import Sidebar from "./components/sideBar/sideBar";
 import Projects from "./components/projects/projects";
 import ReactTooltip from 'react-tooltip';
 
@@ -25,7 +25,7 @@ class App extends Component {
   render() {
     return(
     <div className="App">
-        <AnimatedName />
+        <Sidebar />
         <div className="content">
           <BrandStatement />
           <br/>
